@@ -4,7 +4,7 @@ import cv2
 face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 
 # 從視訊鏡頭擷取影片. 
-#cap = cv2.VideoCapture(0)
+# cap = cv2.VideoCapture(0)
 # 使用現有影片
 cap = cv2.VideoCapture('test.mp4')
 
