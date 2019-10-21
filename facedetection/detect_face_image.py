@@ -20,6 +20,8 @@ for (x, y, w, h) in faces:
     cv2.rectangle(img, (x, y), (x + w, y + h), (0, 255, 0), 2)
 #(0, 255, 0)欄位可以變更方框顏色(Blue,Green,Red)
 
+#計算找到幾張臉
+print("找到了 {0} 張臉.".format(len(faces)))
 # 顯示成果
 cv2.namedWindow('img', cv2.WINDOW_NORMAL)  #正常視窗大小
 cv2.imshow('img', img)                     #秀出圖片

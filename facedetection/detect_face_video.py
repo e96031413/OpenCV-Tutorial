@@ -27,7 +27,8 @@ while True:
 
     # 顯示成果
     cv2.imshow('img', img)
-
+    #計算找到幾張臉
+    print("找到了 {0} 張臉.".format(len(faces)))
 
     # 按下ESC結束程式執行
     k = cv2.waitKey(30) & 0xff
